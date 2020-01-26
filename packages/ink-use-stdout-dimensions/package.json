@@ -5,7 +5,8 @@
   "description": "React hook for subscribing to stdout dimensions in Ink",
   "main": "./build/index.js",
   "files": [
-    "./build"
+    "./build",
+    "./src"
   ],
   "repository": {
     "type": "git",
