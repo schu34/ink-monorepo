@@ -15,6 +15,7 @@
   },
   "scripts": {
     "prebuild": "rm -rf ./build",
+    "prepare":"npm run build",
     "build": "tsc --outDir ./build",
     "demo": "ts-node --transpile-only ./demo/index.tsx"
   },
